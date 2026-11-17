@@ -25,10 +25,16 @@ Mirai-Webdev-Assignment/
 │   ├── portfolio.html    # Personal resume & portfolio page using HTML5 semantic tags
 │   ├── index.html        # Live preview entry point
 │   └── README.md         # Documentation on semantic elements & layout
-└── Question 3/
-    ├── registrationForm.html # Student registration form with HTML5 validation
-    ├── index.html        # Live preview entry point
-    └── README.md         # Comprehensive input types & validation attributes guide
+├── Question 3/
+│   ├── registrationForm.html # Student registration form with HTML5 validation
+│   ├── index.html        # Live preview entry point
+│   └── README.md         # Comprehensive input types & validation attributes guide
+└── Question 4/
+    ├── index.html        # Landing page with animated hero, staggered cards & spinner
+    ├── style.css         # Mobile-first styles, keyframe animations, dark mode & reduced motion
+    ├── app.js            # IntersectionObserver scroll reveal script
+    ├── NOTES.md          # Viva questions, answers & technical explanations
+    └── README.md         # Comprehensive documentation & implementation breakdown
 ```
 
 ---
@@ -58,11 +64,22 @@ Mirai-Webdev-Assignment/
   - [`Question 3/index.html`](./Question%203/index.html)
   - [`Question 3/README.md`](./Question%203/README.md)
 
+### [Question 4: Transitions, Animations, Media Queries & Scroll Reveal](./Question%204/README.md)
+- **Objective**: Enhance the landing page with CSS transitions, keyframe animations, mobile-first media queries, reduced-motion accessibility, and scroll reveal.
+- **Key Concepts**: GPU accelerated `transform`/`opacity` transitions, `@keyframes` (`rise`, `pulse`, `spin`), CSS spinner, mobile-first breakpoints (768px, 1100px), `prefers-color-scheme: dark`, `@media print`, `prefers-reduced-motion`, JavaScript `IntersectionObserver`.
+- **Files**:
+  - [`Question 4/index.html`](./Question%204/index.html)
+  - [`Question 4/style.css`](./Question%204/style.css)
+  - [`Question 4/app.js`](./Question%204/app.js)
+  - [`Question 4/NOTES.md`](./Question%204/NOTES.md)
+  - [`Question 4/README.md`](./Question%204/README.md)
+
 ---
 
 ## 🛠️ Technologies Used
 - **HTML5**: Semantic tags, native form validation, accessible attributes.
-- **CSS3**: Responsive layouts, `:valid` / `:invalid` pseudo-class styling.
+- **CSS3**: Mobile-first media queries, CSS variables, keyframe animations, 60fps GPU transitions.
+- **JavaScript (ES6+)**: `IntersectionObserver` scroll-reveal logic.
 - **Git & GitHub**: Version control, branch management, remote repository syncing.
 
 ---
