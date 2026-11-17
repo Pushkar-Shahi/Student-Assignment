@@ -1,0 +1,18 @@
+# Ignore all PDF files (as requested: do not push PDFs)
+*.pdf
+*.PDF
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor and IDE directories
+.vscode/
+.idea/
+
+# Node / dependencies
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
